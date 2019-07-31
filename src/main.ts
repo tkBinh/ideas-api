@@ -8,6 +8,6 @@ const port = process.env.PORT || 8080;
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   await app.listen(port);
-  Logger.log(`Server đang chạy ở http://localhost:${port}`, 'Bootstrap');
+  Logger.log(`Server đang chạy ở http://localhost:${port}`, 'Một Tin nhắn từ Bình đấy là ->');
 }
 bootstrap();
